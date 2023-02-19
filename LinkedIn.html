@@ -1,0 +1,782 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>LinkedIn</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="LinkedIn.css">
+  </head>
+  <body>
+    <nav style="height: 73px; align-items: center;" class="navbar navbar-expand-lg bg-light sticky-top"> <!-- navbar start-->
+        <div class="container">
+                <div class="d-flex flex-row align-items-center">
+                    <div>
+                        <a href="#">
+                            <li-icon class="me-1"type="app-linkedin-bug-color-icon" size="large" role="img" aria-label="LinkedIn"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="41" height="41" focusable="false">
+                                    <path d="M20.5 2h-17A1.5 1.5 0 002 3.5v17A1.5 1.5 0 003.5 22h17a1.5 1.5 0 001.5-1.5v-17A1.5 1.5 0 0020.5 2zM8 19H5v-9h3zM6.5 8.25A1.75 1.75 0 118.3 6.5a1.78 1.78 0 01-1.8 1.75zM19 19h-3v-4.74c0-1.42-.6-1.93-1.38-1.93A1.74 1.74 0 0013 14.19a.66.66 0 000 .14V19h-3v-9h2.9v1.3a3.11 3.11 0 012.7-1.4c1.55 0 3.36.86 3.36 3.66z"></path>
+                                </svg>
+                            </li-icon>
+                        </a>
+                    </div>
+                    <div>
+                        <form class="inline" role="search">
+                            <div class="input-icons">
+                                <div>
+                                    <i class="fa fa-search icon"></i>
+                                </div>
+                                 <div style="width: 280px; height: 34px;">
+                                    <input class="input-field form-control  border border-0 " type="search" placeholder="Arama yap" aria-label="Search">
+                                </div>
+                            </div>
+                            </form>
+                    </div>
+                </div>
+                <div>
+                    <nav class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mb-lg-0 header-icons align-items-center">
+                            <li class="nav-item px-2">
+                                <div class="">
+                                    <a href="#" class="icon-color">
+                                        <div>
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+                                                    <path d="M23 9v2h-2v7a3 3 0 01-3 3h-4v-6h-4v6H6a3 3 0 01-3-3v-7H1V9l11-7 5 3.18V2h3v5.09z"></path>
+                                            </svg>
+                                        </div>
+                                        <span><small>Ana Sayfa</small></span>
+                                    </a>
+                                <div>
+                            </li>
+                            <li class="nav-item px-2 ">
+                                <div class="">
+                                    <a href="#" class="icon-color">
+                                        <div>
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+                                                <path d="M12 16v6H3v-6a3 3 0 013-3h3a3 3 0 013 3zm5.5-3A3.5 3.5 0 1014 9.5a3.5 3.5 0 003.5 3.5zm1 2h-2a2.5 2.5 0 00-2.5 2.5V22h7v-4.5a2.5 2.5 0 00-2.5-2.5zM7.5 2A4.5 4.5 0 1012 6.5 4.49 4.49 0 007.5 2z"></path>
+                                              </svg>
+                                        </div>
+                                        <span><small>Ağım</small></span>
+                                    </a>
+                                <div>
+                            </li>
+                            <li class="nav-item px-2 ">
+                                <div class="">
+                                    <a href="#" class="icon-color">
+                                        <div>
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+                                                <path d="M22.84 10.22L21 6h-3.95V5a3 3 0 00-3-3h-4a3 3 0 00-3 3v1H2l2.22 5.18A3 3 0 007 13h14a2 2 0 001.84-2.78zM15.05 6h-6V5a1 1 0 011-1h4a1 1 0 011 1zM7 14h15v3a3 3 0 01-3 3H5a3 3 0 01-3-3V8.54l1.3 3A4 4 0 007 14z"></path>
+                                            </svg>
+                                        </div>
+                                        <span><small>İş İlanları</small></span>
+                                    </a>
+                                <div>
+                            </li>
+                            <li class="nav-item px-2 ">
+                                <div class="">
+                                    <a href="#" class="icon-color">
+                                        <div>
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+                                                <path d="M16 4H8a7 7 0 000 14h4v4l8.16-5.39A6.78 6.78 0 0023 11a7 7 0 00-7-7zm-8 8.25A1.25 1.25 0 119.25 11 1.25 1.25 0 018 12.25zm4 0A1.25 1.25 0 1113.25 11 1.25 1.25 0 0112 12.25zm4 0A1.25 1.25 0 1117.25 11 1.25 1.25 0 0116 12.25z"></path>
+                                              </svg>   
+                                        </div>
+                                        <span><small>Mesajlaşma</small></span>
+                                    </a>
+                                <div>
+                            </li>
+                            <li class="nav-item px-2 ">
+                                <div class="">
+                                    <a href="#" class="icon-color">
+                                        <div>
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+                                                <path d="M22 19h-8.28a2 2 0 11-3.44 0H2v-1a4.52 4.52 0 011.17-2.83l1-1.17h15.7l1 1.17A4.42 4.42 0 0122 18zM18.21 7.44A6.27 6.27 0 0012 2a6.27 6.27 0 00-6.21 5.44L5 13h14z"></path>
+                                            </svg>
+                                        </div>
+                                        <span><small>Bildirimler</small></span>
+                                    </a>
+                                <div>
+                            </li>
+                            <li class="nav-item pe-4 ">
+                                <div class="">
+                                    <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <div>
+                                            <img class="rounded-circle"width="24" src="https://media.licdn.com/dms/image/C4D03AQHW_7vsvSO_LQ/profile-displayphoto-shrink_100_100/0/1602669466670?e=1681948800&amp;v=beta&amp;t=EKfcooWHypPipBJFDZWpCfN6_GZMFaz8dXEA220oztI" height="24" alt="Reşat Haydar Sofuoğlu" id="ember16" class="global-nav__me-photo ember-view">
+                                        </div>
+                                        <span><small>Ben</small></span>
+                                    </a>
+                                <div>
+                            </li>
+                            <li class="nav-item px-2 ">
+                                <div class="">
+                                    <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <div>
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+                                                <path d="M3 3h4v4H3zm7 4h4V3h-4zm7-4v4h4V3zM3 14h4v-4H3zm7 0h4v-4h-4zm7 0h4v-4h-4zM3 21h4v-4H3zm7 0h4v-4h-4zm7 0h4v-4h-4z"></path>
+                                            </svg>
+                                        </div>
+                                        <span><small>İş</small></span>
+                                    </a>
+                                <div>
+                            </li>
+                            <li class="header-end nav-item mt-3">
+                                <div class="">
+                                    <a href="#" class="pre">
+                                    <small>
+                                        <p class="premium">Ağınızla Daha Akıllıca İletişim Kurun, Premium‘u Ücretsiz Deneyin
+                                    </small>
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+        </div>
+    </nav><!-- nanvbar end -->
+    <div class="container mt-4 ">
+        <div class="row">
+            <div class="col-sm-2 me-2 "> <!-- Left Card First Start -->
+                <div class="card border border-bottom-1" style="width: 14rem;">
+                    <div class="card-header-bottom border border-bottom-2">
+                        <div class="card-header" style="height: 53px; background-image: url(https://static.licdn.com/sc/h/55k1z8997gh8dwtihm11aajyq);">
+                            <a href="#" style="margin-left: 55px;">
+                                <img class="rounded-circle img-thumbnail" width="72px" height="72px" src="https://media.licdn.com/dms/image/C4D03AQHW_7vsvSO_LQ/profile-displayphoto-shrink_100_100/0/1602669466670?e=1681948800&amp;v=beta&amp;t=EKfcooWHypPipBJFDZWpCfN6_GZMFaz8dXEA220oztI" class="card-img-top" alt="...">
+                            </a>
+                        </div>
+                        <div class="card-name mt-5">
+                            <div>
+                                <p class="card-text"><strong>Reşat Sofuoğlu</strong></p>
+                            </div>
+                            <div>
+                                <p class="text-body-secondary">Community Manager Of Piggylet and Piggylads NFT</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body border border-bottom-1">
+                        <div style="width: 100%;">
+                            <ul class="list-inline">
+                                    <li>
+                                        <a class="text-decoration-none" href="#">
+                                            <div style="width: 100%;" class="d-flex justify-content-between">
+                                                <div>
+                                                    <div>
+                                                        <span class="top-card">
+                                                            bağlantı
+                                                        </span>
+                                                    </div>
+                                                    <div>
+                                                        <span class="bottom-card">iletişim ağınızı büyütün </span>
+                                                    </div>
+                                                </div>
+                                                <div>
+                                                    <span class="number">97</span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                <li>
+                                    <a class="text-decoration-none"  href="#">
+                                        <div class="d-flex justify-content-between">
+                                            <div>
+                                                <span class="top-card">Kişi profilinizi görüntüledi</span>
+                                            </div>
+                                            <div>
+                                                <span class="number">24</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div> 
+                    <a class="text-decoration-none ms-2" href="#">
+                        <div>
+                            <span class="top-card">Özel araç ve içgörülere erişin </span>
+                        </div>
+                        <div class="d-flex">
+                            <div>
+                                <span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" class="mercado-match" width="16" height="16" focusable="false">
+                                    <path d="M20 20a3.36 3.36 0 001-2.39V6.38A3.38 3.38 0 0017.62 3H6.38A3.36 3.36 0 004 4z" fill="#f8c77e"></path>
+                                    <path d="M4 4a3.36 3.36 0 00-1 2.38v11.24A3.38 3.38 0 006.38 21h11.24A3.36 3.36 0 0020 20z" fill="#e7a33e"></path>
+                                  </svg></span>
+                            </div>
+                              <div class="ms-1">
+                                <u class="bottom-card">Ağınızla Daha Akıllıca İletişim</u> <br>
+                                <u class="bottom-card">Kurun, Premium'u Ücretsiz</u> <br>
+                                <u class="bottom-card">Deneyin</u>
+                              </div>
+                              
+                        </div>
+                    </a>
+                    <div class="border border-top1">
+                        <a href="#" class="text-decoration-none">
+                            <div class="d-flex ms-2">
+                                <div>
+                                    <svg style="color: gray;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" data-supported-dps="16x16" fill="currentColor" class="mercado-match" width="16" height="16" focusable="false">
+                                        <path d="M13 4a3 3 0 00-3-3H3v14l5-4.5 5 4.5z"></path>
+                                      </svg>
+                                </div>
+                                <div class="ms-1">
+                                    <span class="bottom-card">
+                                        Ögelerim
+                                    </span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>   
+                <div class="card mt-2" style="width: 14rem;"><!-- Left Card Second Start -->
+                                <div class="border-bottom-1" style="width: 100%;">
+                                    <ul class="list-inline ms-2">
+                                        <div class="d-flex align-items-center justify-content-between">
+                                            <div>
+                                                <li><a href="#"></a><span class="left-deep text-primary">Gruplar</span></li>
+                                                <li><a href="#"></a><span class="left-deep text-primary">Etkinlikler</span></li>
+                                                <li><a href="#"></a><span class="left-deep text-primary">Takip edilen hashtagler</span></li>
+                                            </div>
+                                            <div class="me-1">
+                                                <a href="#" class="text-secondary">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" data-supported-dps="16x16" fill="currentColor" class="mercado-match" width="16" height="16" focusable="false">
+                                                        <path d="M14 9H9v5H7V9H2V7h5V2h2v5h5z"></path>
+                                                    </svg>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </ul>
+                                </div>
+                                <div style="border-radius: 2px;"class="border border-top1 d-flex justify-content-center">
+                                        <a href="#" style="width: 100%;" class="text-decoration-none">
+                                            <div class="mt-2 d-flex justify-content-center">
+                                                <span style="font-size: 14px; color: gray;">Daha fazla keşfet</span>
+                                            </div>
+                                        </a>
+                                </div>
+                </div>
+            </div>
+            <div class="col-sm-6 ms-5 "> <!-- Middle Card Start-->
+                <div>
+                    <div class="card mb-3 ">  
+                        <div class="d-flex align-items-center mt-2 ms-2">
+                           <div>
+                            <img class="rounded-circle" width="48px"src="data:image/jpeg;base64,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" alt="">
+                           </div>
+                            <button class="like-input ms-2 me-2" style="width: 100%; height: 48px;">
+                                <div class="d-flex">
+                                     <a class="text-decoration-none ms-2" style="color: gray;" href="#">Gönderi Başlat</a>
+                                </div>
+                            </button>
+                        </div>
+                        <div class="d-flex justify-content-between ms-4 me-4">
+                            <div>
+                                <button class="buttons-middle  border border-0" style="height: 48px;">
+                                    <div class="hover-button-top d-flex">
+                                        <div>
+                                            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+                                                <path d="M19 4H5a3 3 0 00-3 3v10a3 3 0 003 3h14a3 3 0 003-3V7a3 3 0 00-3-3zm1 13a1 1 0 01-.29.71L16 14l-2 2-6-6-4 4V7a1 1 0 011-1h14a1 1 0 011 1zm-2-7a2 2 0 11-2-2 2 2 0 012 2z"></path>
+                                            </svg></a>
+                                        </div>
+                                        <div class="ms-3">Fotoğraf</div>
+                                    </div>
+                                </button>
+                            </div>
+                            <div>
+                                <button class="buttons-middle border border-0" style="height: 48px;">
+                                    <div class="d-flex">
+                                        <div>
+                                            <a href="#">
+                                                <svg style="color:green" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+                                                    <path d="M19 4H5a3 3 0 00-3 3v10a3 3 0 003 3h14a3 3 0 003-3V7a3 3 0 00-3-3zm-9 12V8l6 4z"></path>
+                                                </svg>
+                                            </a>
+                                        </div>
+                                        <div class="ms-3">Video</div>
+                                    </div>
+                                </button>
+                            </div>
+                            <div>
+                                <button class="buttons-middle  border border-0" style="height: 48px;">
+                                    <div class="d-flex">
+                                        <div>
+                                            <a href="#">
+                                                <svg style="color:orange"xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+                                                    <path d="M3 3v15a3 3 0 003 3h12a3 3 0 003-3V3zm13 1.75A1.25 1.25 0 1114.75 6 1.25 1.25 0 0116 4.75zm-8 0A1.25 1.25 0 116.75 6 1.25 1.25 0 018 4.75zM19 18a1 1 0 01-1 1H6a1 1 0 01-1-1V9h14zm-5.9-3a1 1 0 00-1-1H12a3.12 3.12 0 00-1 .2l-1-.2v-3h3.9v1H11v1.15a3.7 3.7 0 011.05-.15 1.89 1.89 0 012 1.78V15a1.92 1.92 0 01-1.84 2H12a1.88 1.88 0 01-2-1.75 1 1 0 010-.25h1a.89.89 0 001 1h.1a.94.94 0 001-.88z"></path>
+                                                </svg>
+                                            </a>
+                                        </div>
+                                        <div class="ms-3">Etkinlik</div>
+                                    </div>
+                                </button>
+                            </div>
+                            <div>
+                                <button class="buttons-middle  border border-0" style="height: 48px;">
+                                    <div class="d-flex">
+                                        <div>
+                                            <a href="#">
+                                                <svg style="color:rgb(241, 125, 125)" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+                                                    <path d="M21 3v2H3V3zm-6 6h6V7h-6zm0 4h6v-2h-6zm0 4h6v-2h-6zM3 21h18v-2H3zM13 7H3v10h10z"></path>
+                                                </svg>
+                                            </a>
+                                        </div>
+                                        <div class="ms-3">Yazı Yaz</div>
+                                    </div>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Çizgi var -->
+                <div>
+                    <div class="card mb-3 mt-2">
+                        <div class="d-flex justify-content-center">
+                            <div style="width: 92%;"class="middle-bottom-line mt-2 ">
+                               <div class="mb-2 d-flex justify-content-between">
+                                <div class="d-flex">
+                                    <div>
+                                        <img class="rounded-circle" style=" width: 24px;"src="https://media.licdn.com/dms/image/C4D03AQHW_7vsvSO_LQ/profile-displayphoto-shrink_800_800/0/1602669466670?e=2147483647&v=beta&t=rk-5Xt7BjsGfhxetS3uA889A6NoVa_ow7iGjnCxzHog" alt="">
+                                    </div>
+                                    <div class="ms-2">
+                                        <a style="color: black;"class=" text-decoration-none" href="#">Reşat Sofuoğlu</a> <span class="text-muted">bunu beğendi.</span>
+                                    </div>
+                                </div>
+                                <div class="d-flex">
+                                    <div class="me-2">
+                                        <svg style="color:rgb(189, 189, 189)" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+                                            <path d="M14 12a2 2 0 11-2-2 2 2 0 012 2zM4 10a2 2 0 102 2 2 2 0 00-2-2zm16 0a2 2 0 102 2 2 2 0 00-2-2z"></path>
+                                        </svg>
+                                    </div>
+                                    <div>
+                                        <svg style="color:rgb(189, 189, 189)" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" data-supported-dps="16x16" fill="currentColor" class="mercado-match" width="16" height="16" focusable="false">
+                                            <path d="M14 3.41L9.41 8 14 12.59 12.59 14 8 9.41 3.41 14 2 12.59 6.59 8 2 3.41 3.41 2 8 6.59 12.59 2z"></path>
+                                        </svg>
+                                    </div>
+                                </div>
+                               </div>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <div style="width: 92%;"class="mt-2 ">
+                               <div class="mb-2 d-flex justify-content-between align-items-center">
+                                    <div class="d-flex">
+                                        <div class="mt-2">
+                                            <img class="rounded-circle" style=" width: 48px;"src="https://media.licdn.com/dms/image/C4D03AQHW_7vsvSO_LQ/profile-displayphoto-shrink_800_800/0/1602669466670?e=2147483647&v=beta&t=rk-5Xt7BjsGfhxetS3uA889A6NoVa_ow7iGjnCxzHog" alt="">
+                                        </div>
+                                        <div>
+                                            <div class="ms-2">
+                                                <a style="color: black;"class=" text-decoration-none" href="#">Reşat Sofuoğlu</a>
+                                            </div>
+                                            <div class="ms-2">
+                                                <a style="color: black; font-size: 12px;"class=" text-decoration-none text-muted" href="#">VC Principal | Multi-Family Office </a>
+                                            </div>
+                                            <div class="ms-2">
+                                                <a style="color: black; font-size: 12px"class=" text-decoration-none text-muted" href="#">2 gün • </a>
+                                                <a class="text-muted "href="#">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" data-supported-dps="16x16" fill="currentColor" class="mercado-match" width="16" height="16" focusable="false">
+                                                        <path d="M8 1a7 7 0 107 7 7 7 0 00-7-7zM3 8a5 5 0 011-3l.55.55A1.5 1.5 0 015 6.62v1.07a.75.75 0 00.22.53l.56.56a.75.75 0 00.53.22H7v.69a.75.75 0 00.22.53l.56.56a.75.75 0 01.22.53V13a5 5 0 01-5-5zm6.24 4.83l2-2.46a.75.75 0 00.09-.8l-.58-1.16A.76.76 0 0010 8H7v-.19a.51.51 0 01.28-.45l.38-.19a.74.74 0 01.68 0L9 7.5l.38-.7a1 1 0 00.12-.48v-.85a.78.78 0 01.21-.53l1.07-1.09a5 5 0 01-1.54 9z"></path>
+                                                </svg>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="me-2">
+                                           <a href="#" class="text-decoration-none"><strong> + Takip Et</strong></a>
+                                        </div>
+                                    </div>
+                               </div>
+                            </div>
+                        </div>
+                        <div>
+                            <img src="fontawesome-free-6.3.0-desktop/svgs/brands/amazon-pay.svg" class="card-img-top" alt="">
+                        </div>
+                        <div class="card-body ">
+                            <div style="width: 92%;" class="middle-bottom-line mt-2">
+                                <div><h5 class="card-title" style="font-size: 15px; color: black;"><strong>How to ask great questions</strong></h5></div>
+                                <div><p class="card-text text-muted" style="font-size: 12px;">xyz.org • 3 dakikalık okuma</p></div>
+                                <div class="d-flex justify-content-between mb-2">
+                                    <div class="d-flex flex-row position-relative " >
+                                        <div class="z-1 position-absolute top-0 start-0 " >
+                                            <img class="reactions-icon social-detail-social-counts__count-icon social-detail-social-counts__count-icon--0 reactions-icon__consumption--small data-test-reactions-icon-type-LIKE data-test-reactions-icon-theme-light" src="https://static.licdn.com/sc/h/8ekq8gho1ruaf8i7f86vd1ftt" alt="like" data-test-reactions-icon-type="LIKE" data-test-reactions-icon-theme="light">
+                                        </div>
+                                        <div class="z-2 position-absolute top-0 start-10 ps-2">
+                                            <img class="reactions-icon social-detail-social-counts__count-icon social-detail-social-counts__count-icon--1 reactions-icon__consumption--small reactions-icon--stacked data-test-reactions-icon-type-INTEREST data-test-reactions-icon-theme-light" src="https://static.licdn.com/sc/h/lhxmwiwoag9qepsh4nc28zus" alt="insightful" data-test-reactions-icon-type="INTEREST" data-test-reactions-icon-theme="light">
+                                        </div>
+                                        <div class="z-3 position-absolute top-0 start-20 ps-3">
+                                            <img class="reactions-icon social-detail-social-counts__count-icon social-detail-social-counts__count-icon--2 reactions-icon__consumption--small reactions-icon--stacked data-test-reactions-icon-type-EMPATHY data-test-reactions-icon-theme-light" src="https://static.licdn.com/sc/h/cpho5fghnpme8epox8rdcds22" alt="love" data-test-reactions-icon-type="EMPATHY" data-test-reactions-icon-theme="light">
+                                        </div>
+                                    </div>
+                                    <div class="me-5">
+                                        <a class="text-muted text-decoration-none" style="font-size: 12px;" href="#">Reşat Sofuoğlu ve 12.385 diğer kişi</a>
+                                    </div>
+                                    <div class="d-flex justify-content-evenly ms-2">
+                                        <div><a href="#" class="text-muted text-decoration-none" style="font-size: 12px;">86 yorum</a></div>
+                                        <div class="ms-1"><a href="#" class="text-muted text-decoration-none" style="font-size: 12px;">•</a></div>
+                                        <div class="ms-1"><a href="#" class="text-muted text-decoration-none" style="font-size: 12px;">5 paylaşım</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between ms-4 me-4 mt-2">
+                                <div>
+                                    <button class="buttons-middle  border border-0" style="height: 48px;">
+                                        <div class="d-flex">
+                                            <div>
+                                                <a href="#" class="text-muted">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+                                                        <path d="M7 9h10v1H7zm0 4h7v-1H7zm16-2a6.78 6.78 0 01-2.84 5.61L12 22v-4H8A7 7 0 018 4h8a7 7 0 017 7zm-2 0a5 5 0 00-5-5H8a5 5 0 000 10h6v2.28L19 15a4.79 4.79 0 002-4z"></path>
+                                                    </svg>
+                                                </a>
+                                            </div>
+                                            <div class="ms-3">Beğen</div>
+                                        </div>
+                                    </button>
+                                </div>
+                                <div>
+                                    <button class="buttons-middle border border-0" style="height: 48px;">
+                                        <div class="d-flex">
+                                            <div>
+                                                <a href="#" class="text-muted">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+                                                        <path d="M7 9h10v1H7zm0 4h7v-1H7zm16-2a6.78 6.78 0 01-2.84 5.61L12 22v-4H8A7 7 0 018 4h8a7 7 0 017 7zm-2 0a5 5 0 00-5-5H8a5 5 0 000 10h6v2.28L19 15a4.79 4.79 0 002-4z"></path>
+                                                      </svg>
+                                                </a>
+                                            </div>
+                                            <div class="ms-3">Yorum Yap</div>
+                                        </div>
+                                    </button>
+                                </div>
+                                <div>
+                                    <button class="buttons-middle  border border-0" style="height: 48px;">
+                                        <div class="d-flex">
+                                            <div>
+                                                <a href="#" class="text-muted">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+                                                        <path d="M21 3L0 10l7.66 4.26L16 8l-6.26 8.34L14 24l7-21z"></path>
+                                                      </svg>
+                                                </a>
+                                            </div>
+                                            <div class="ms-3">Paylaş</div>
+                                        </div>
+                                    </button>
+                                </div>
+                                <div>
+                                    <button class="buttons-middle  border border-0" style="height: 48px;">
+                                        <div class="d-flex">
+                                            <div>
+                                                <a href="#" class="text-muted">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+                                                        <path d="M21 3L0 10l7.66 4.26L16 8l-6.26 8.34L14 24l7-21z"></path>
+                                                      </svg>
+                                                </a>
+                                            </div>
+                                            <div class="ms-3">Gönder</div>
+                                        </div>
+                                    </button>
+                                </div>
+                            </div>
+                      </div>
+                </div>
+                <div>
+                    <div class="card mb-3 mt-2">
+                        <div class="d-flex justify-content-center">
+                            <div style="width: 92%;"class="middle-bottom-line mt-2 ">
+                               <div class="mb-2 d-flex justify-content-between">
+                                <div class="d-flex">
+                                    <div>
+                                        <img class="rounded-circle" style=" width: 24px;"src="https://media.licdn.com/dms/image/C4D03AQHW_7vsvSO_LQ/profile-displayphoto-shrink_800_800/0/1602669466670?e=2147483647&v=beta&t=rk-5Xt7BjsGfhxetS3uA889A6NoVa_ow7iGjnCxzHog" alt="">
+                                    </div>
+                                    <div class="ms-2">
+                                        <a style="color: black;"class=" text-decoration-none" href="#">Reşat Sofuoğlu</a> <span class="text-muted">bunu beğendi.</span>
+                                    </div>
+                                </div>
+                                <div class="d-flex">
+                                    <div class="me-2">
+                                        <svg style="color:rgb(189, 189, 189)" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+                                            <path d="M14 12a2 2 0 11-2-2 2 2 0 012 2zM4 10a2 2 0 102 2 2 2 0 00-2-2zm16 0a2 2 0 102 2 2 2 0 00-2-2z"></path>
+                                        </svg>
+                                    </div>
+                                    <div>
+                                        <svg style="color:rgb(189, 189, 189)" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" data-supported-dps="16x16" fill="currentColor" class="mercado-match" width="16" height="16" focusable="false">
+                                            <path d="M14 3.41L9.41 8 14 12.59 12.59 14 8 9.41 3.41 14 2 12.59 6.59 8 2 3.41 3.41 2 8 6.59 12.59 2z"></path>
+                                        </svg>
+                                    </div>
+                                </div>
+                               </div>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <div style="width: 92%;"class="mt-2 ">
+                               <div class="mb-2 d-flex justify-content-between align-items-center">
+                                    <div class="d-flex">
+                                        <div class="mt-2">
+                                            <img class="rounded-circle" style=" width: 48px;"src="https://media.licdn.com/dms/image/C4D03AQHW_7vsvSO_LQ/profile-displayphoto-shrink_800_800/0/1602669466670?e=2147483647&v=beta&t=rk-5Xt7BjsGfhxetS3uA889A6NoVa_ow7iGjnCxzHog" alt="">
+                                        </div>
+                                        <div>
+                                            <div class="ms-2">
+                                                <a style="color: black;"class=" text-decoration-none" href="#">Reşat Sofuoğlu</a>
+                                            </div>
+                                            <div class="ms-2">
+                                                <a style="color: black; font-size: 12px;"class=" text-decoration-none text-muted" href="#">VC Principal | Multi-Family Office </a>
+                                            </div>
+                                            <div class="ms-2">
+                                                <a style="color: black; font-size: 12px"class=" text-decoration-none text-muted" href="#">2 gün • </a>
+                                                <a class="text-muted "href="#">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" data-supported-dps="16x16" fill="currentColor" class="mercado-match" width="16" height="16" focusable="false">
+                                                        <path d="M8 1a7 7 0 107 7 7 7 0 00-7-7zM3 8a5 5 0 011-3l.55.55A1.5 1.5 0 015 6.62v1.07a.75.75 0 00.22.53l.56.56a.75.75 0 00.53.22H7v.69a.75.75 0 00.22.53l.56.56a.75.75 0 01.22.53V13a5 5 0 01-5-5zm6.24 4.83l2-2.46a.75.75 0 00.09-.8l-.58-1.16A.76.76 0 0010 8H7v-.19a.51.51 0 01.28-.45l.38-.19a.74.74 0 01.68 0L9 7.5l.38-.7a1 1 0 00.12-.48v-.85a.78.78 0 01.21-.53l1.07-1.09a5 5 0 01-1.54 9z"></path>
+                                                </svg>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="me-2">
+                                           <a href="#" class="text-decoration-none"><strong> + Takip Et</strong></a>
+                                        </div>
+                                    </div>
+                               </div>
+                            </div>
+                        </div>
+                        <div>
+                            <img src="fontawesome-free-6.3.0-desktop/svgs/brands/airbnb.svg" class="card-img-top" alt="">
+                        </div>
+                        <div class="card-body ">
+                            <div style="width: 92%;" class="middle-bottom-line mt-2">
+                                <div><h5 class="card-title" style="font-size: 15px; color: black;"><strong>How to ask great questions</strong></h5></div>
+                                <div><p class="card-text text-muted" style="font-size: 12px;">xyz.org • 3 dakikalık okuma</p></div>
+                                <div class="d-flex justify-content-between mb-2">
+                                    <div class="d-flex flex-row position-relative " >
+                                        <div class="z-1 position-absolute top-0 start-0 " >
+                                            <img class="reactions-icon social-detail-social-counts__count-icon social-detail-social-counts__count-icon--0 reactions-icon__consumption--small data-test-reactions-icon-type-LIKE data-test-reactions-icon-theme-light" src="https://static.licdn.com/sc/h/8ekq8gho1ruaf8i7f86vd1ftt" alt="like" data-test-reactions-icon-type="LIKE" data-test-reactions-icon-theme="light">
+                                        </div>
+                                        <div class="z-2 position-absolute top-0 start-10 ps-2">
+                                            <img class="reactions-icon social-detail-social-counts__count-icon social-detail-social-counts__count-icon--1 reactions-icon__consumption--small reactions-icon--stacked data-test-reactions-icon-type-INTEREST data-test-reactions-icon-theme-light" src="https://static.licdn.com/sc/h/lhxmwiwoag9qepsh4nc28zus" alt="insightful" data-test-reactions-icon-type="INTEREST" data-test-reactions-icon-theme="light">
+                                        </div>
+                                        <div class="z-3 position-absolute top-0 start-20 ps-3">
+                                            <img class="reactions-icon social-detail-social-counts__count-icon social-detail-social-counts__count-icon--2 reactions-icon__consumption--small reactions-icon--stacked data-test-reactions-icon-type-EMPATHY data-test-reactions-icon-theme-light" src="https://static.licdn.com/sc/h/cpho5fghnpme8epox8rdcds22" alt="love" data-test-reactions-icon-type="EMPATHY" data-test-reactions-icon-theme="light">
+                                        </div>
+                                    </div>
+                                    <div class="me-5">
+                                        <a class="text-muted text-decoration-none" style="font-size: 12px;" href="#">Reşat Sofuoğlu ve 12.385 diğer kişi</a>
+                                    </div>
+                                    <div class="d-flex justify-content-evenly ms-2">
+                                        <div><a href="#" class="text-muted text-decoration-none" style="font-size: 12px;">86 yorum</a></div>
+                                        <div class="ms-1"><a href="#" class="text-muted text-decoration-none" style="font-size: 12px;">•</a></div>
+                                        <div class="ms-1"><a href="#" class="text-muted text-decoration-none" style="font-size: 12px;">5 paylaşım</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between ms-4 me-4 mt-2">
+                                <div>
+                                    <button class="buttons-middle  border border-0" style="height: 48px;">
+                                        <div class="d-flex">
+                                            <div>
+                                                <a href="#" class="text-muted">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+                                                        <path d="M7 9h10v1H7zm0 4h7v-1H7zm16-2a6.78 6.78 0 01-2.84 5.61L12 22v-4H8A7 7 0 018 4h8a7 7 0 017 7zm-2 0a5 5 0 00-5-5H8a5 5 0 000 10h6v2.28L19 15a4.79 4.79 0 002-4z"></path>
+                                                    </svg>
+                                                </a>
+                                            </div>
+                                            <div class="ms-3">Beğen</div>
+                                        </div>
+                                    </button>
+                                </div>
+                                <div>
+                                    <button class="buttons-middle border border-0" style="height: 48px;">
+                                        <div class="d-flex">
+                                            <div>
+                                                <a href="#" class="text-muted">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+                                                        <path d="M7 9h10v1H7zm0 4h7v-1H7zm16-2a6.78 6.78 0 01-2.84 5.61L12 22v-4H8A7 7 0 018 4h8a7 7 0 017 7zm-2 0a5 5 0 00-5-5H8a5 5 0 000 10h6v2.28L19 15a4.79 4.79 0 002-4z"></path>
+                                                      </svg>
+                                                </a>
+                                            </div>
+                                            <div class="ms-3">Yorum Yap</div>
+                                        </div>
+                                    </button>
+                                </div>
+                                <div>
+                                    <button class="buttons-middle  border border-0" style="height: 48px;">
+                                        <div class="d-flex">
+                                            <div>
+                                                <a href="#" class="text-muted">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+                                                        <path d="M21 3L0 10l7.66 4.26L16 8l-6.26 8.34L14 24l7-21z"></path>
+                                                      </svg>
+                                                </a>
+                                            </div>
+                                            <div class="ms-3">Paylaş</div>
+                                        </div>
+                                    </button>
+                                </div>
+                                <div>
+                                    <button class="buttons-middle  border border-0" style="height: 48px;">
+                                        <div class="d-flex">
+                                            <div>
+                                                <a href="#" class="text-muted">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+                                                        <path d="M21 3L0 10l7.66 4.26L16 8l-6.26 8.34L14 24l7-21z"></path>
+                                                      </svg>
+                                                </a>
+                                            </div>
+                                            <div class="ms-3">Gönder</div>
+                                        </div>
+                                    </button>
+                                </div>
+                            </div>
+                      </div>
+                </div> 
+            </div>
+            </div><!-- Middle Card End-->
+        </div> 
+        <div class="col-sm-3 ms-2"> <!-- Right Card Start-->
+            <div class="card" style="width: 19rem;">
+                <div class="card-body">
+                    <div class="d-flex justify-content-between">
+                            <div>
+                                <h5 class="card-title" style="font-size: 18px;">Akışınıza ekleyin</h5>
+                            </div>
+                            <div>
+                                <a href="#">
+                                    <img style="width: 16px; height: 16px;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Infobox_info_icon.svg/480px-Infobox_info_icon.svg.png" alt="">
+                                </a>
+                            </div>
+                    </div>
+                        <div class="d-flex">
+                            <div>
+                                <img class="rounded-circle" width="48" src="https://media.licdn.com/dms/image/C4D03AQHW_7vsvSO_LQ/profile-displayphoto-shrink_800_800/0/1602669466670?e=2147483647&v=beta&t=rk-5Xt7BjsGfhxetS3uA889A6NoVa_ow7iGjnCxzHog">
+                            </div>
+                            <div class="ms-2">
+                                <div><a class="text-decoration-none text-black" href="#">Resores</a></div>
+                                <div><a href="#" class="text-decoration-none text-muted">Şirket • Software</a></div>
+                            </div>
+                        </div>
+                    <div class="d-flex justify-content-center align-items-center ms-5 mt-2" style="border:1px solid gray; width: 109px; height: 32px; border-radius: 60px;">
+                        <div class="d-flex flex-column text-align-center">
+                            <a href="#" class="text-muted text-decoration-none">+ Takip Et</a>
+                        </div>
+                    </div>
+                    <div class="d-flex mt-3">
+                        <div>
+                            <img class="rounded-circle" width="48" src="https://media.licdn.com/dms/image/C4D03AQHW_7vsvSO_LQ/profile-displayphoto-shrink_800_800/0/1602669466670?e=2147483647&v=beta&t=rk-5Xt7BjsGfhxetS3uA889A6NoVa_ow7iGjnCxzHog">
+                        </div>
+                        <div class="ms-2">
+                            <div><a class="text-decoration-none text-black" href="#">Resores</a></div>
+                            <div><a href="#" class="text-decoration-none text-muted">Şirket • Software</a></div>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-center align-items-center ms-5 mt-2" style="border:1px solid gray; width: 109px; height: 32px; border-radius: 60px;">
+                        <div class="d-flex flex-column text-align-center">
+                            <a href="#" class="text-muted text-decoration-none">+ Takip Et</a>
+                        </div>
+                    </div>
+                    <div class="d-flex mt-3">
+                        <div>
+                            <img class="rounded-circle" width="48" src="https://media.licdn.com/dms/image/C4D03AQHW_7vsvSO_LQ/profile-displayphoto-shrink_800_800/0/1602669466670?e=2147483647&v=beta&t=rk-5Xt7BjsGfhxetS3uA889A6NoVa_ow7iGjnCxzHog">
+                        </div>
+                        <div class="ms-2">
+                            <div><a class="text-decoration-none text-black" href="#">Resores</a></div>
+                            <div><a href="#" class="text-decoration-none text-muted">Şirket • Software</a></div>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-center align-items-center ms-5 mt-2" style="border:1px solid gray; width: 109px; height: 32px; border-radius: 60px;">
+                        <div class="d-flex flex-column text-align-center">
+                            <a href="#" class="text-muted text-decoration-none">+ Takip Et</a>
+                        </div>
+                    </div>
+                    <div>
+                        <a href="#" class="text-muted text-decoration-none" style="font-size: 15px;">Tüm tavsiyeleri görüntüle → </a>
+                    </div>
+                </div>
+              </div>
+              <div class="card mt-2" style="width: 19rem;">
+                <div class="d-flex justify-content-end align-items-center">
+                    <div>
+                        <a href="" class="me-1 text-decoration-none text-black" style="font-size: 14px;">Reklam</a>
+                    </div>
+                    <div>
+                        <a class="me-1" href="#"><svg viewBox="0 0 16 16" width="16" height="16" xmlns="http://www.w3.org/2000/svg"><title>overflow-web-small</title><g><g><path d="M3,9.5A1.5,1.5,0,1,1,4.5,8,1.5,1.5,0,0,1,3,9.5ZM11.5,8A1.5,1.5,0,1,0,13,6.5,1.5,1.5,0,0,0,11.5,8Zm-5,0A1.5,1.5,0,1,0,8,6.5,1.5,1.5,0,0,0,6.5,8Z"></path></g></g></svg></a>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-center">
+                    <div>
+                        <a href="#" class="text-muted text-decoration-none" style="font-size: 13px;">Resat, restart your Premium free trial</a>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-center">
+                    <a href="#" class="text-muted text-decoration-none" style="font-size: 13px;">today!</a>
+                </div>
+                <div class="card-body d-flex justify-content-center">
+                    <img class="rounded-circle" width="75px" height="75px" src="https://media.licdn.com/dms/image/C4D03AQHW_7vsvSO_LQ/profile-displayphoto-shrink_800_800/0/1602669466670?e=2147483647&v=beta&t=rk-5Xt7BjsGfhxetS3uA889A6NoVa_ow7iGjnCxzHog">
+                    <img class="ms-4" width="75px" height="75px" src="https://media.licdn.com/dms/image/C560EAQGxCC1P9SxAlQ/rightRail-logo-shrink_200_200/0/1634903335269?e=1677366000&amp;v=beta&amp;t=n3FrzHLRhPHAsFFC2o0pTzn65obDE32sEAJTsQqcCAA">
+                </div>
+                <div class="d-flex justify-content-center">
+                    <div>
+                        <a href="#" class="text-muted text-decoration-none" style="font-size: 15px;">See who's viewed your profile in the last</a>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-center">
+                    <a href="#" class="text-muted text-decoration-none" style="font-size: 15px;">90 days</a>
+                </div>
+                <div class="d-flex justify-content-center mb-3">
+                    <div class="d-flex justify-content-center align-items-center mt-2" style="border:2px solid; width: 109px; height: 38px; border-radius: 60px; color: rgb(65, 116, 227);">
+                        <div class="d-flex flex-column text-align-center">
+                            <a href="#" class="text-decoration-none text-primary">Restart Trial</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card border border-0 mt-3" style="width: 19rem;">
+                <div>
+                    <ul class="list-inline">
+                        <div class="d-flex justify-content-center">
+                            <li><a class="text-muted text-decoration-none mx-2"  style="font-size: 12px;" href="#">Hakkında</a></li>
+                            <li><a class="text-muted text-decoration-none mx-2"  style="font-size: 12px;" href="#">Erişebilirlik</a></li>
+                            <li><a class="text-muted text-decoration-none mx-2"  style="font-size: 12px;" href="#">Yardım Merkezi</a></li>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <li class="nav-item dropdown">
+                                <a class="text-muted text-decoration-none mx-2"  style="font-size: 12px;" href="#">
+                                    <button class="btn text-muted dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Gizlilik ve Koşullar
+                                  </button>
+                                </a>
+                            </li>
+                            <li><a class="text-muted text-decoration-none mx-2"  style="font-size: 12px;" href="#">Reklam Tercihleri</a></li>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <li><a class="text-muted text-decoration-none mx-2"  style="font-size: 12px;" href="#">Reklam</a></li>
+                            <li class="nav-item dropdown">
+                                <a class="text-muted text-decoration-none mx-2"  style="font-size: 12px;" href="#">
+                                    <button class="btn text-muted dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Ticari Hizmetler
+                                  </button>
+                                </a>
+                            </li>
+                            
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <li><a class="text-muted text-decoration-none mx-2"  style="font-size: 12px;" href="#">LinkedIn uygulamasını yükle</a></li>
+                            <li><a class="text-muted text-decoration-none mx-2"  style="font-size: 12px;" href="#">Daha Fazla</a></li>
+                        </div>
+                    </ul>
+                    <div class="d-flex justify-content-center">
+                        <div>
+                            <a href="#"><li-icon type="linkedin-logo" class="global-footer-compact__linkedin-logo" size="14dp" color="brand" role="img" aria-label="LinkedIn"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 56 14" data-supported-dps="56x14" fill="currentColor" class="mercado-match" width="56" height="14" focusable="false">
+                                <g>
+                                <path class="background-mercado" d="M22.1 8.2l3.09 3.8h-2.44L20 8.51V12h-2V2h2v5.88L22.54 5h2.55zm-8-3.4A2.71 2.71 0 0011.89 6V5H10v7h2V8.73a1.74 1.74 0 011.66-1.93C14.82 6.8 15 7.94 15 8.73V12h2V8.29c0-2.2-.73-3.49-2.86-3.49zM32 8.66a4.22 4.22 0 010 .44h-5.25v.07a1.79 1.79 0 001.83 1.43 2.51 2.51 0 001.84-.69l1.33 1a4.31 4.31 0 01-3.25 1.29 3.49 3.49 0 01-3.7-3.75 3.58 3.58 0 013.76-3.65C30.44 4.8 32 6.13 32 8.66zm-1.86-.86a1.46 1.46 0 00-1.59-1.4 1.64 1.64 0 00-1.8 1.4zM2 2H0v10h6v-2H2zm36 0h2v10h-1.89v-.7a2.44 2.44 0 01-2 .9 3.41 3.41 0 01-3.31-3.7 3.36 3.36 0 013.3-3.7 2.62 2.62 0 011.9.7zm.15 6.5a1.63 1.63 0 00-1.62-1.85A1.76 1.76 0 0034.9 8.5a1.76 1.76 0 001.63 1.85 1.63 1.63 0 001.62-1.85zM8 1.8A1.27 1.27 0 006.75 3a1.25 1.25 0 002.5 0A1.27 1.27 0 008 1.8zM7 12h2V5H7zM56 1v12a1 1 0 01-1 1H43a1 1 0 01-1-1V1a1 1 0 011-1h12a1 1 0 011 1zM46 5h-2v7h2zm.25-2a1.25 1.25 0 00-2.5 0 1.25 1.25 0 002.5 0zM54 8.29c0-2.2-.73-3.49-2.86-3.49A2.71 2.71 0 0048.89 6V5H47v7h2V8.73a1.74 1.74 0 011.66-1.93C51.82 6.8 52 7.94 52 8.73V12h2z"></path>
+                                </g>
+                            </svg>
+                                </li-icon>
+                            </a>
+                        </div>
+                        <div><a class="text-muted text-decoration-none mx-2"  style="font-size: 13px;" href="#">LinkedIn Corporation © 2023</a></div>
+                    </div>
+                </div>
+            </div>
+            
+        </div><!-- Right Card End-->
+     
+        
+    </div>
+
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+</html>

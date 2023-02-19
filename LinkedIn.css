@@ -1,0 +1,83 @@
+
+.input-icons i {
+    position: absolute;
+}
+
+.icon {
+    color: gray;
+    min-width: 40px;
+    padding-top: 8px;
+    padding-left: 10px;
+}
+  
+.input-field {
+    width: 100%;
+    background-color: #d6e1f1;
+    text-align:center;
+    padding-right: 130px;
+}
+.header-icons {
+    text-align: center;
+}
+.icon-color {
+    color: rgb(29, 29, 29);
+    text-decoration: none;
+}
+.premium {
+    font-size: 12px;
+}
+.pre {
+    text-decoration-color: goldenrod;
+    
+    color: goldenrod;
+}
+.header-end {
+    max-width: 125px;
+}
+.card-name {
+    text-align: center;
+}
+.text-body-secondary {
+    font-size: 10px;
+}
+.card-header-bottom {
+    border-radius: 2px;
+}
+.btn {
+    font-size: 12px
+}
+.badge {
+    font-size: 13px;
+}
+
+.top-card {
+font-size: 12px;
+color: gray;
+}
+.bottom-card {
+font-size: 12px;
+color: black;
+}
+.number {
+    font-size: 13px;
+}
+
+.left-deep {
+    font-size: 12px;
+}
+.left-card:hover {
+    background-color: rgb(191, 191, 191);
+}
+.like-input {
+    border: 1px solid rgb(196, 194, 194);
+    background-color: transparent;
+    border-radius: 60px;
+    width: 200px;
+    align-items: center;
+}
+.buttons-middle {
+    background-color: transparent;
+}
+.middle-bottom-line {
+    border-bottom: 1px solid rgb(189, 189, 189);
+}
